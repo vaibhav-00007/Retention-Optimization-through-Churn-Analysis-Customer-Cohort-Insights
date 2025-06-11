@@ -3,7 +3,7 @@
 
 -- ----------------------------------------
 -- 👥 User & Order Overview
--- 🔹 Goal: Determine total number of customers, orders, and products
+-- 🔹 Goal: Determine the total number of customers, orders, and products
 
 -- Total number of unique users
 SELECT
