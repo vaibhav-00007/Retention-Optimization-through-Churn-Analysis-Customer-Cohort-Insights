@@ -33,7 +33,8 @@ The project is based on the Instacart Market Basket Analysis dataset, consisting
 
 ## Data Cleanup & Quality Checks
 
-📄 Script: 0_data_cleaning_checks.sql
+📄 Script: [0_data_cleaning_checks.sql](https://github.com/vaibhav-00007/Retention-Optimization-through-Churn-Analysis-Customer-Cohort-Insights/blob/main/0_data_cleaning_checks.sql)
+
 
 - Removed leading/trailing white spaces from text fields
 - Verified uniqueness and non-null constraints on primary keys
