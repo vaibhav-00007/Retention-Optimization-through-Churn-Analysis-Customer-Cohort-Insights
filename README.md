@@ -49,7 +49,8 @@ The project is based on the Instacart Market Basket Analysis dataset, consisting
   - `Diverse Only`
   - `Occasional / Narrow` (37.9%)
 - Visualization
-  ![Customer Segmentation by Frequency & Basket Diversity](https://github.com/vaibhav-00007/Retention-Optimization-through-Churn-Analysis-Customer-Cohort-Insights/blob/main/Images/3)%20Customer%20Segmentation%20by%20Frequency%20%26%20Basket%20Diversity%20.png?raw=true)
+ ![Customer Segmentation by Frequency & Basket Diversity](https://github.com/vaibhav-00007/Retention-Optimization-through-Churn-Analysis-Customer-Cohort-Insights/raw/main/Images/3_customer_segmentation_by_frequency_%20basket_diversity.png)
+e)
 
 
 ### 2. Churn Detection
