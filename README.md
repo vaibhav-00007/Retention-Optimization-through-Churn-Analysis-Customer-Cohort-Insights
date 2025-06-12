@@ -59,6 +59,9 @@ e)
   - `At-Risk` (31–60 days)
   - `Churned` (60+ days)
 - Found that **88.6% of users were churned**, with only **2.5% active**
+- Visualization
+
+  ![Churned Customers - Last 30 Days](https://github.com/vaibhav-00007/Retention-Optimization-through-Churn-Analysis-Customer-Cohort-Insights/raw/main/Images/4_customers_who%E2%80%99ve_churned_in_the_last_30_days.png)
 
 ---
 
