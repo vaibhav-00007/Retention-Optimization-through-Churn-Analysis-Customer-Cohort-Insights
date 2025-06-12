@@ -41,6 +41,7 @@ The project is based on the Instacart Market Basket Analysis dataset, consisting
 
 ### 1. Customer Segmentation
 
+
 - Segmented 200K+ users using `frequency` (number of orders) and `product diversity` (unique products)
 - Created **four distinct segments**:
   - `Frequent & Diverse` (37.9%)
