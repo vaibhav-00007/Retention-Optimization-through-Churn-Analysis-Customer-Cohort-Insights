@@ -1,5 +1,5 @@
 # Retention Optimization through Churn Analysis & Customer Cohort Insights
----
+
 
 ## Overview
 
@@ -7,7 +7,7 @@
 - Segmented users into 4 behavioral cohorts (Frequent & Diverse, Frequent Only, Diverse Only, Occasional/Narrow), revealing that ~76% of users fall into extreme ends of the engagement spectrum.
 - Identified that 88.6% of users were churned, 8.9% at-risk, while only 2.5% remained active, prompting strategic recommendations for personalized marketing, reorder reminders, and VIP loyalty programs.
 
----
+
 
 ## Business Objective
 
@@ -16,7 +16,7 @@ To empower marketing and product teams with a **data-driven strategy** to:
 - Segment users into **cohorts** based on purchase behavior
 - Recommend **retention** tactics using frequency and diversity patterns
 
----
+
 
 ## Dataset Overview
 
@@ -33,7 +33,7 @@ The project is based on the Instacart Market Basket Analysis dataset, consisting
 
 ## Data Cleanup & Quality Checks
 
-📄 Script: data_cleaning_checks.sql
+📄 Script: 0_data_cleaning_checks
 
 - Removed leading/trailing white spaces from text fields
 - Verified uniqueness and non-null constraints on primary keys
