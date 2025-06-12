@@ -8,7 +8,6 @@
 - Identified that 88.6% of users were churned, 8.9% at-risk, while only 2.5% remained active, prompting strategic recommendations for personalized marketing, reorder reminders, and VIP loyalty programs.
 
 
-
 ## Business Objective
 
 To empower marketing and product teams with a **data-driven strategy** to:
@@ -16,8 +15,7 @@ To empower marketing and product teams with a **data-driven strategy** to:
 - Segment users into **cohorts** based on purchase behavior
 - Recommend **retention** tactics using frequency and diversity patterns
 
-
-
+  
 ## Dataset Overview
 
 The project is based on the Instacart Market Basket Analysis dataset, consisting of:
@@ -29,22 +27,20 @@ The project is based on the Instacart Market Basket Analysis dataset, consisting
 | `products`, `aisles`, `departments` | Product catalog and hierarchy data |
 
 
----
-
 ## Data Cleanup & Quality Checks
 
 📄 Script: [0_data_cleaning_checks.sql](https://github.com/vaibhav-00007/Retention-Optimization-through-Churn-Analysis-Customer-Cohort-Insights/blob/main/0_data_cleaning_checks.sql)
-
 
 - Removed leading/trailing white spaces from text fields
 - Verified uniqueness and non-null constraints on primary keys
 - Identified and flagged duplicate records in key dimension and fact tables
 - Prepared clean, analysis-ready data to be used in views, segmentation, and churn modeling
 
-
-## 🔍 Key Analyses
+  
+## 🔍 Key Analysis
 
 ### 1. Customer Segmentation
+
 - Segmented 200K+ users using `frequency` (number of orders) and `product diversity` (unique products)
 - Created **four distinct segments**:
   - `Frequent & Diverse` (37.9%)
