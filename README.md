@@ -106,7 +106,7 @@ The project is based on the Instacart Market Basket Analysis dataset, consisting
 
 - 🛍 **59% reorder rate** suggests potential for subscription models
 - 📉 **High churn (88.6%)** highlights the need for personalized re-engagement
-- 🧠 **Segmented marketing** can drive higher conversions by targeting:
+- 🔢 **Segmented marketing** can drive higher conversions by targeting:
   - Occasional users with cross-sell promotions
   - Frequent buyers with loyalty rewards
   - At-risk customers with time-sensitive offers
