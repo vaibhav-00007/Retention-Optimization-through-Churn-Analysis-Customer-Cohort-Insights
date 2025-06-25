@@ -69,7 +69,7 @@ The project is based on the Instacart Market Basket Analysis dataset, consisting
     
 ### 2. Churn Detection
 
-📄 Script: 📄 [4_churn_analysis.sql](https://github.com/vaibhav-00007/Retention-Optimization-through-Churn-Analysis-Customer-Cohort-Insights/blob/main/4_churn_analysis.sql)
+📄 Script: [4_churn_analysis.sql](https://github.com/vaibhav-00007/Retention-Optimization-through-Churn-Analysis-Customer-Cohort-Insights/blob/main/4_churn_analysis.sql)
 
 - Calculated days since last order to identify:
   - `Active` (0–30 days)
