@@ -41,6 +41,8 @@ The project is based on the Instacart Market Basket Analysis dataset, consisting
 
 ### 1. Customer Segmentation
 
+📄 Script: [3_customer_segmentation.sql](https://github.com/vaibhav-00007/Retention-Optimization-through-Churn-Analysis-Customer-Cohort-Insights/blob/main/3_customer_segmentation.sql)
+
 
 - Segmented customers based on `frequency` (number of orders) and `product diversity` (unique products)
 - Created **four distinct segments**:
