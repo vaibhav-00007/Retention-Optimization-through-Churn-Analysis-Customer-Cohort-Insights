@@ -68,6 +68,9 @@ The project is based on the Instacart Market Basket Analysis dataset, consisting
   - Diverse Only: - Trigger reorder reminders based on typical interval patterns & promote automated subscription options for favorite items.
     
 ### 2. Churn Detection
+
+📄 Script: 📄 [4_churn_analysis.sql](https://github.com/vaibhav-00007/Retention-Optimization-through-Churn-Analysis-Customer-Cohort-Insights/blob/main/4_churn_analysis.sql)
+
 - Calculated days since last order to identify:
   - `Active` (0–30 days)
   - `At-Risk` (31–60 days)
