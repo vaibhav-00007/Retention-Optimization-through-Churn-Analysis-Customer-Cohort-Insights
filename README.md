@@ -97,7 +97,7 @@ The project is based on the Instacart Market Basket Analysis dataset, consisting
   - Re-Evaluate the Churned Mass: Focus first on high-LTV lapsed users by segmenting this group by lifetime value and past purchase frequency.
     
 
-### Business Insights
+## Business Insights & Summary
 
 - 🛍 **59% reorder rate** suggests potential for subscription models
 - 📉 **High churn (88.6%)** highlights the need for personalized re-engagement
@@ -117,7 +117,7 @@ The project is based on the Instacart Market Basket Analysis dataset, consisting
 
 ---
 
-## 📈 Results Summary
+### 📈 Results Summary
 
 - 🧾 Processed 3M+ rows of transaction data
 - 👥 Analyzed 206K+ users and 49K+ products
