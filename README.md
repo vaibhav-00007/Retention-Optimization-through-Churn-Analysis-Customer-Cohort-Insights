@@ -59,7 +59,7 @@ The project is based on the Instacart Market Basket Analysis dataset, consisting
   - Frequent Only (12.1%): frequent orders but limited variety.
   - Diverse Only (12.1%): wide variety but low ordering frequency.
 
-📊 **Recommendations**
+💡 **Recommendations**
   - Frequent & Diverse: Launch VIP subscription & promote premium bundles to leverage broad interests.
   - Occasional / Narrow: Deploy reactivation emails & use cross-sell suggestions to expand basket diversity.
   - Frequent Only: Embed in-cart recommendations for complementary products & offer "X% off a new category" coupons to encourage variety.
@@ -91,14 +91,14 @@ The project is based on the Instacart Market Basket Analysis dataset, consisting
   - Small At-Risk Pool (8.9%): 18,383 users are between 31–60 days since last order.
   - Large Churned Majority (88.6%): 182,672 users have been silent for over 60 days—Their average inactivity is ~190 days, indicating long-term disengagement.
 
-📊 **Recommendations**
+💡 **Recommendations**
   - Protect the Active Cohort: Present complementary items immediately after purchase.
   - Win Back the At-Risk Group:  Drive urgency with "30% off your next order within 7 days" promotions.
   - Re-Evaluate the Churned Mass: Focus first on high-LTV lapsed users by segmenting this group by lifetime value and past purchase frequency.
     
 ---
 
-## 📊 Business Insights
+### Business Insights
 
 - 🛍 **59% reorder rate** suggests potential for subscription models
 - 📉 **High churn (88.6%)** highlights the need for personalized re-engagement
@@ -106,10 +106,8 @@ The project is based on the Instacart Market Basket Analysis dataset, consisting
   - Occasional users with cross-sell promotions
   - Frequent buyers with loyalty rewards
   - At-risk customers with time-sensitive offers
-
----
-
-## 💡 Recommendations
+    
+- Recommendations Summary
 
 | Segment | Actionable Strategy |
 |---------|---------------------|
