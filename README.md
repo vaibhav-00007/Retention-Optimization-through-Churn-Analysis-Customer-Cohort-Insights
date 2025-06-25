@@ -37,32 +37,65 @@ The project is based on the Instacart Market Basket Analysis dataset, consisting
 - Prepared clean, analysis-ready data to be used in views, segmentation, and churn modeling
 
   
-## 🔍 Key Analysis
+## Key Analysis
 
 ### 1. Customer Segmentation
 
 
-- Segmented 200K+ users using `frequency` (number of orders) and `product diversity` (unique products)
+- Segmented customers based on `frequency` (number of orders) and `product diversity` (unique products)
 - Created **four distinct segments**:
-  - `Frequent & Diverse` (37.9%)
+  - `Frequent & Diverse` 
   - `Frequent Only`
   - `Diverse Only`
-  - `Occasional / Narrow` (37.9%)
-- Visualization
+  - `Occasional / Narrow`
+    
+📈  **Visualization**
+  
  ![Customer Segmentation by Frequency & Basket Diversity](https://github.com/vaibhav-00007/Retention-Optimization-through-Churn-Analysis-Customer-Cohort-Insights/raw/main/Images/3_customer_segmentation_by_frequency_%20basket_diversity.png)
-e)
 
+🔍 **What This Tells Us**
+  - Occasional / Narrow (37.9%): infrequent shoppers with narrow baskets.
+  - Frequent & Diverse (37.9%): power users with broad product exploration.
+  - Frequent Only (12.1%): frequent orders but limited variety.
+  - Diverse Only (12.1%): wide variety but low ordering frequency.
 
+📊 **Recommendations**
+  - Frequent & Diverse: Launch VIP subscription & promote premium bundles to leverage broad interests.
+  - Occasional / Narrow: Deploy reactivation emails & use cross-sell suggestions to expand basket diversity.
+  - Frequent Only: Embed in-cart recommendations for complementary products & offer "X% off a new category" coupons to encourage variety.
+  - Diverse Only: - Trigger reorder reminders based on typical interval patterns & promote automated subscription options for favorite items.
+    
 ### 2. Churn Detection
 - Calculated days since last order to identify:
   - `Active` (0–30 days)
   - `At-Risk` (31–60 days)
   - `Churned` (60+ days)
 - Found that **88.6% of users were churned**, with only **2.5% active**
-- Visualization
+- Summary Results
+
+| Bucket             | Users   | % of Total | Avg Days Since Last Order |
+|--------------------|---------|------------|----------------------------|
+| Active (0–30d)     | 5,154   | 2.50%      | 21.6 days                  |
+| At-Risk (31–60d)   | 18,383  | 8.91%      | 47.2 days                  |
+| Churned (>60d)     | 182,672 | 88.59%     | 190.2 days                 |
+
+  
+📈  **Visualization**
 
   ![Churned Customers - Last 30 Days](https://github.com/vaibhav-00007/Retention-Optimization-through-Churn-Analysis-Customer-Cohort-Insights/raw/main/Images/4_customers_who%E2%80%99ve_churned_in_the_last_30_days.png)
 
+  
+
+🔍 **What This Tells Us**
+  - Very Low Active Base (2.5%): Only 5,154 users placed an order in the past 30 days.
+  - Small At-Risk Pool (8.9%): 18,383 users are between 31–60 days since last order.
+  - Large Churned Majority (88.6%): 182,672 users have been silent for over 60 days—Their average inactivity is ~190 days, indicating long-term disengagement.
+
+📊 **Recommendations**
+  - Protect the Active Cohort: Present complementary items immediately after purchase.
+  - Win Back the At-Risk Group:  Drive urgency with "30% off your next order within 7 days" promotions.
+  - Re-Evaluate the Churned Mass: Focus first on high-LTV lapsed users by segmenting this group by lifetime value and past purchase frequency.
+    
 ---
 
 ## 📊 Business Insights
