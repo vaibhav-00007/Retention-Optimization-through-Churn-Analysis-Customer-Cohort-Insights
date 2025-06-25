@@ -115,8 +115,6 @@ The project is based on the Instacart Market Basket Analysis dataset, consisting
 | Frequent Only | Encourage variety with new-category coupons |
 | Churned | LTV-based re-engagement, feedback surveys |
 
----
-
 ### 📈 Results Summary
 
 - 🧾 Processed 3M+ rows of transaction data
@@ -124,8 +122,6 @@ The project is based on the Instacart Market Basket Analysis dataset, consisting
 - 🧠 Generated cohort insights that enable targeted retention strategies
 - 🎯 Converted raw data into business impact recommendations
 
-  
----
 
 ## 🛠️ Tools & Tech Stack
 
