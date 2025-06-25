@@ -96,7 +96,6 @@ The project is based on the Instacart Market Basket Analysis dataset, consisting
   - Win Back the At-Risk Group:  Drive urgency with "30% off your next order within 7 days" promotions.
   - Re-Evaluate the Churned Mass: Focus first on high-LTV lapsed users by segmenting this group by lifetime value and past purchase frequency.
     
----
 
 ### Business Insights
 
